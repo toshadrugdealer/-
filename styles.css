@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    /* background: rgb(244, 233, 255); */
+    background: url(фон.png);
+    color: rgb(42, 36, 61);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+a:visited {
+    color:rgb(83, 19, 85);
+}
+
+.ава {
+    width: 200px ;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgb(56, 32, 52)
+}
+.крыса {
+    border-radius: 30px;
+}
+.аваа {
+    width: 20px ;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgb(56, 32, 52)
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.infotext {
+    margin-left: 10px;
+    /* background: #e4d9fd;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px; */
+}
+
+.contact {
+    margin-left: 20px;   
+}
+
+.info p {
+    color: #10273d;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    /*  word-spacing: 42px; */
+}
+/* Box Model */
+
+.content{
+    max-width: 750px;
+    margin: auto;
+    background: #e4d9fd;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+
+/* .seti {
+background-color: rgb(214, 214, 250);
+padding: 1px 5px; 
+border: 5px solid rgb(139, 141, 247);
+} */
+
+/* .bg-1 {
+    background: #e4d9fd;
+}
+
+.bg-2 {
+    background: #e4d9fd;
+}
+
+.bg-3 {
+    background: #e4d9fd;
+} */
+
+/* .card {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+} */
+
+.card h2 {
+   margin-bottom: 10px; 
+}
+
+.list {
+padding: 0 20px;
+}
+.list li {
+    color: rgb(23, 58, 66);
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+.table td:nth-child(2) {
+    color: rgb(128, 128, 128);
+}
+
+
+.связь label {
+    display: block;
+    font-size: 14px;
+    color: #372c52;
+}
+
+.связь input,
+.связь textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #c8b2ff;
+    color: black;
+    padding: 5px 5px;
+    outline: none;
+    font-family: inherit;
+}
+
+.knopka {
+    padding: 15px 20px;
+    background: #cbb4ff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.knopka:hover {
+    opacity: 0.7;
+}
+.k1:hover {
+    opacity: 0.7;   
+}
+
+.аватарка {
+    margin-left: 290px;
+
+}
+
+.bg-1 ol li {
+    list-style: none;
+    background: url(хуй.png) no-repeat;
+    padding-left: 24px;
+}
+
+.bg-1 ol {
+    padding-left: 12px;
+}
+
+
+.infotext h1 {
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: white;
+}
+
+.content крыса {
+    border-radius: 30px;
+}
